@@ -1,0 +1,715 @@
+*{
+    /* border: 2px solid red solid red; */
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.parent{
+    padding: 0 !important;
+
+}
+
+
+.navbar-section-one{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color:rgb(30, 64, 85);
+    width: 100%;
+    padding: 10px;
+    border-bottom: 4px solid rgb(218, 165, 32);
+    
+    
+}
+.ul-nav-one{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 250px;
+}
+.ul-nav-one-li a{
+    text-decoration: none;
+    color: #f5f5f5a5;
+    font-size: 14px;
+}
+.ul-nav-one-li a:hover{
+    color: rgb(218, 165, 32);
+
+}
+.navbar-one-icon{
+    /* border: 1px solid red; */
+    word-spacing: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+#icon-one:hover{
+    color: rgb(60, 179, 113);
+}
+#icon-two:hover{
+    color: rgb(60, 179, 113);
+}
+#icon-three:hover{
+    color: rgb(60, 179, 113);
+}
+#icon-four:hover{
+    color: rgb(60, 179, 113);
+}
+.nav-p-tag{
+    /* border: 1px solid red; */
+    background-color:rgb(218, 165, 32);
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+}
+.nav-p-tag:hover{
+    color:#FFD700;
+}
+.navbar-one-last-icon{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    color: white;
+}
+.navbar-section-two{
+    display: flex;
+    /* width: 100%; */
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* justify-content: space-evenly; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.solarin-logo{
+    display: flex;
+/* align-items: center; */
+line-height: 5px;
+    /* gap: 10px; */
+}
+#nav-two-icon{
+    margin-left: 30px;
+}
+.tai-solarin{
+    /* border: 1px solid red; */
+    margin-top: 10px; 
+}
+.tai-solarin h3{
+     /* border: 1px solid red; */
+     font-size: 25px;
+}
+.tai-solarin p{
+     /* border: 1px solid red; */
+     font-size: 12px;
+
+}
+.ul-nav-two{
+    display: flex;
+    list-style: none;
+    /* gap: 9px; */
+    gap: 10px;
+    /* margin-left: 40px;  */
+}
+
+
+.ul-nav-two a{
+    text-decoration: none;
+    color: rgb(30, 64, 85);
+    font-size: 18px;
+    
+}
+.ul-nav-two a:hover{
+     border-bottom: 5px solid  rgb(60, 179, 113);
+    padding: 10px; 
+
+}
+.school-section{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 50px;
+}
+.school-building{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+}
+.first-img-section{
+    display: flex;
+    position: relative;
+    background-image: url(/image/building-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 40px; */
+      background-color:#181c38; 
+     opacity: 0.8;   
+}
+
+
+.building-one{
+    /* border: 1px solid red; */
+    
+}
+.apply-for-admission{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    left: 660px;
+    padding: 60px; 
+    width: 48%;
+    height: 600px;
+      background-color: #181c38;
+     opacity: 0.8; 
+}
+.apply-for-admission h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.apply-p{
+    font-size: 21px;
+    color: rgb(60, 179, 113);
+}
+.apply-ptag{
+    font-size: 20px;
+    color: #f8f8f8;
+}
+.apply-btn{
+    width: 135px;
+    height: 50px;
+    background-color: rgb(218, 165, 32);
+    border-radius: 2px solid red;
+    border: none;
+    color: white;
+}
+.apply-btn:hover{
+   background-color:#FFD700;
+}
+.tai{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: 2px solid red;
+}
+.backgroung-img{
+    background-image: url(/image/student\ in\ campus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    /* margin-bottom: 50px; */
+}
+.about-our-uni{
+    position: absolute;
+    display: flex;
+    /* gap: 150px; */
+    padding: 55px;
+    justify-content: space-between;
+     background-color:#181c38;
+     opacity: 0.8;
+     
+}
+.paragrah{
+    /* border: 1px solid red; */
+    width: 60%;
+    color: white;
+}
+.tai-uni h4{
+    font-size: 35px;
+    color: white;
+}
+.tai-uni p{
+    font-size: 15.2px solid red !important;
+    color: white;
+}
+.hh4{
+    color: rgb(218, 165, 32);
+}
+.vision-section{
+    display: flex;
+    background-color: rgb(30, 64, 85);
+    padding: 50px;
+    gap: 35px;
+}
+.vision,.mission,.philosophy,.history{
+    color: white;
+}
+.vision,.mission,.philosophy,.history p{
+    font-size: 18px;
+}
+.read-more{
+    color:  rgb(60, 179, 113);
+}
+.read-more:hover{
+    color: white;
+}
+.news-updates{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.read-all-news{
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+.read-all-news h4{
+    font-weight: bold;
+}
+.first-semester{
+    line-height: 20px;
+}
+.first-semester h6{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.annual-leave{
+    display: flex;
+}
+.annual{
+    
+    /* width: 40%; */
+    /* margin: 150 -5px; */
+    /* padding: 50px; */
+    /* margin-top: 150px; */
+}
+.roster h5{
+    font-size: 17px;
+    line-height: 5px;
+}
+.important-info{
+    display: flex;
+    margin: 40 0px;
+}
+.deadline-fee h5{
+    font-size: 18px;  
+}
+.deadline-fee p{
+    line-height: 5px;
+    font-size: 16px;
+}
+.acting-vc{
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+.chancellor h5{
+    font-size: 17px;
+}
+.chancellor p{
+    font-size: 16px;
+}
+.quick-links{
+    /* border: 1px solid red; */
+    /* width: 60%; */
+    background-color: #2e2e94;
+    /* height: 100%; */
+    width: 50%;
+   
+}
+.quick-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* padding: 50px; */
+    margin: 40px;
+    margin-left: 80px;
+    color: white;
+}
+.quick-icon h5{
+    font-size: 27px;
+    font-weight: bolder;
+   
+}
+.links{
+    padding: 5 100px;
+    color:  rgb(60, 179, 113);
+    /* justify-content: start; */
+    line-height: 40px;
+    /* padding: 10px; */
+}
+.links p{
+    border-bottom: 1px solid slategray;
+   
+}
+.senate-house{
+    position: relative;
+    /* background-color: #181c38; */
+}
+.senate-building{
+    width: 100%;
+}
+#you-tube{
+    /* border: 1px solid red; */
+    background-color: rgb(11, 11, 10, 0.8);
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    bottom: 160px;
+    padding: 20px;
+}
+#you-tube{
+    display: none;
+}
+.icon-h:hover #you-tube{
+    display: block;
+
+}
+.video-tour{
+    position: absolute;
+    top: 300px;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    /* background-color: #181c38; */
+}
+.video-tour p{
+    font-size: 23px;
+    width: 50%;
+    justify-self: center;
+}
+.carousel-parent{
+    display: flex!important;
+    /* justify-content: space-evenly; */
+    /* margin: 100px; */
+    gap: 20px;
+}
+.footer-container{
+    display: flex;
+    margin: 40px;
+    
+}
+.academic-div{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+.academic{
+    /* border: 1px solid red; */
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1.5px solid  rgb(60, 179, 113);
+    width: 250px;
+    color: white;
+    /* padding-bottom: 60px; */
+}
+.tasued-log{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    margin: 25 5px;
+    align-items: center;
+    color: #1a1a42;
+}
+.tai-unii{
+     /* border: 1px solid red; */
+    line-height: 5px;
+   
+}
+.tai-unii h5{
+    /* border: 1px solid red;   */
+    font-size: 25px;
+    font-weight: bold;
+}
+.tai-unii p{
+    /* border: 1px solid red; */
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.tai-unip{
+    /* border: 1px solid red; */
+   width: 250px;
+   font-size: 17px;
+  border-bottom: 1.5px solid  rgb(60, 179, 113);
+   padding-bottom: 20px;
+   color: gray;
+}
+.extra,.Information,.about{
+    /* border: 1px solid red; */
+    width: 60%;
+    /* line-height: 18.5px; */
+    
+    
+}
+.p-tagg{
+    /* border: 1px solid red; */
+    font-size: 17px;
+    /* margin: 0 50px; */
+    background-color:#181c38;
+    width: 530px;
+    padding: 25px;
+    color: rgb(218, 165, 32);
+}
+.image-2{
+    width: 500px !important;
+    /* margin: 50px; */
+}
+.linkss,.info,.info-ab{
+    /* border: 1px solid red; */
+     font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1.5px solid  rgb(60, 179, 113);
+    width: 250px;
+    color: white;
+    /* align-items: center; */
+}
+.linkss{
+    padding-bottom: 17px;
+}
+.p-2{
+    /* border: 1px solid red; */
+    margin:  10px;
+}
+.p-1,.p-2,.p-3, ul li a{
+    font-size: 17px;
+    color: gray;
+    text-decoration: none;
+    
+}
+.p-1:hover{
+    color: white;
+}
+
+.footer-buttom{
+    margin: 40px;
+}
+.footer-parent{
+    background-color:  rgb(21, 32, 40);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer-section{
+    background-color: rgb(30, 64, 85);
+    padding: 30px;
+}
+.downloads,.address,.admission{
+    list-style: none;
+    line-height: 32.5px;
+    text-align: left;
+    margin-right: 10px;
+}
+.downloads,.address,.admission, a:hover{
+    color: white;
+}
+.footer-icon{
+    margin: 40px;
+    color:  rgb(60, 179, 113);
+}
+.footer-icon:hover{
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+    
+   
+    .parent{
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .navbar-section-one{
+        display: none;
+        /* border: 1px solid red; */
+    }
+    .navbar-section-two{
+        width: 100% !important;
+         border: 1px solid red;   
+    }
+     .tai-solarin{
+        /* border: 1px solid red; */
+        line-height: 10px;
+
+    }
+    .ul-nav-two a{
+        display: none;
+    }
+    #nav-two-icon{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+   .tai-solarin h3{
+    font-size: 15px; 
+   }
+   .tai-solarin p{
+    font-size: 7px;
+   }
+   
+    .imgg{
+        width: 60px !important;
+
+    }
+    .carousel-inner{
+        justify-content: center;
+    }
+    .school-section{
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .flag-icon{
+        /* border: 1px solid red; */
+        font-size: 10px;
+        width: 30px;
+    }
+    .school-building{
+        /* flex-direction: column; */
+    }
+    .first-img-section{
+        /* border: 2px solid red; */
+        flex-direction: column;
+    }
+
+    #active-img{
+        /* border: 1px solid red; */
+        width: 100% !important;
+    }
+    .apply-for-admission{
+        width: 100% !important;
+        height: 430px;
+    }
+    .apply-for-admission h2{
+        font-size: 20px;
+    }
+    .apply-p{
+        font-size: 13.5px;
+    }
+    .apply-ptag{
+        font-size: 14px;
+    }
+    .tai{
+        /* border: 1px solid red; */
+        align-items: center;
+        gap: 7px;
+    }
+    .about-our-uni{
+        flex-direction: column;
+    }
+    .tai-uni h4{
+        font-size: 20px;
+    }
+    .tai-uni p{
+        font-size: 9.5px;
+    }
+    .hh4{
+        /* border: 1px solid red; */
+        font-size: 21.5px !important;
+    }
+    .backgroung-img{
+        /* border: 1px solid red; */
+        height: 750px!important;
+    }
+    .paragrah{
+        /* border: 1px solid red; */
+        width: 100% !important;
+        height: 550px !important;
+    }
+    .parag{
+        font-size: 17px;
+    }
+    .paragg{
+        font-size: 15px;
+    }
+    .vision-section{
+        flex-direction: column;
+    }
+    .news-updates{
+        flex-direction: column;
+    }
+    #test-img{
+        /* border: 1px solid red; */
+        width: 250px !important;
+    }
+    .first-semester p{
+        /* border: 1px solid red; */
+    }
+    .first-semester h6{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .annual-leave{
+        flex-direction: column;
+    }
+    .annual{
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .quick-links{
+        /* border: 1px solid red; */
+        width: 100%;
+        
+    }
+    .links{
+        font-size: 13px;
+
+    }
+    .quick-icon h5{
+        font-size: 18px;
+        
+    }
+    #icon-quick{
+        /* border: 1px solid red; */
+        font-size: 20px !important;
+    }
+    .important-info{
+        
+    }
+    #carousel-2-img{
+        width: 64% !important;
+        /* justify-self: center; */
+    }
+    .senate-building{
+        height: 500px;
+        /* margin-top: 20px; */
+    }
+    .video-tour{
+        top: 40px;
+        padding: 20px;
+    }
+    .video-tour h2{
+        font-size: 33px;
+        margin-top: 20px;
+    }
+    .video-tour p{
+        font-size: 16px;
+    }
+    .p-tagg{
+        width: 100% !important;
+        font-size: 15px;
+    }
+    .tasued-log{
+        /* border: 1px solid red; */
+        width: 200px;
+        align-items: center;
+    }
+    .tai-unii h5{
+        font-size: 18px !important;
+    }
+    .tai-unii p{
+        font-size: 10px;
+    }
+    .important-info,.acting-vc,.carousel-parent{
+        flex-direction: column;
+    }
+    .footer-container,.footer-parent{
+        flex-direction: column;
+    }
+    .footer-container{
+        width: 100% !important;
+        justify-content: center;
+    }
+    .footer-icon{
+        line-height: 15px;
+       
+    } 
+
+    
+}
+
+
+
