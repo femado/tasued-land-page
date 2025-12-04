@@ -59,9 +59,13 @@
 .nav-p-tag{
     /* border: 1px solid red; */
     background-color:rgb(218, 165, 32);
-    padding: 5px;
+    padding: 10px;
     font-size: 13px;
     color: white;
+}
+.nav-p-tag p{
+    /* border: 1px solid red; */
+    margin: 0 5px;
 }
 .nav-p-tag:hover{
     color:#FFD700;
@@ -72,6 +76,7 @@
     color: white;
 }
 .navbar-section-two{
+    /* border: 1px solid red; */
     display: flex;
     /* width: 100%; */
     background-color: #f8f8f8;
@@ -79,6 +84,7 @@
     align-items: center;
     padding: 10px;
     /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
     position: sticky;
     top: 0;
     z-index: 1;
@@ -86,9 +92,7 @@
 }
 .solarin-logo{
     display: flex;
-/* align-items: center; */
 line-height: 5px;
-    /* gap: 10px; */
 }
 #nav-two-icon{
     margin-left: 30px;
@@ -107,24 +111,55 @@ line-height: 5px;
 
 }
 .ul-nav-two{
+    /* border: 1px solid red; */
     display: flex;
     list-style: none;
-    /* gap: 9px; */
-    gap: 10px;
-    /* margin-left: 40px;  */
+    gap: 50px;
 }
-
-
 .ul-nav-two a{
     text-decoration: none;
     color: rgb(30, 64, 85);
-    font-size: 18px;
-    
+    font-size: 18px; 
+}
+.ul-nav-two a:hover{
+    color: rgb(60, 179, 113);
+
 }
 .ul-nav-two a:hover{
      border-bottom: 5px solid  rgb(60, 179, 113);
     padding: 10px; 
-
+}
+.carousel-caption{
+    /* border: 1px solid red;    */
+}
+.welcome h5{
+    /* border: 1px solid red; */
+    font-size: 40px;
+    justify-self: left;
+    color: rgb(30, 64, 85);
+}
+.welcome p{
+    justify-self: left;
+    font-size: 80px;
+    color: rgb(30, 64, 85);
+    background-color: rgb(30, 64, 85, 0.3);
+}
+#carousel-cap{
+    font-size: 35px;
+    justify-self: left;
+    padding: 20px;
+    color: rgb(31, 156, 156);
+    background-color: rgb(30, 64, 85);
+    opacity: 0.8 !important;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.nurturing{
+    font-size: 30px !important;
+    color: rgb(30, 64, 85);
+    font-weight: bold;
+    text-shadow: #FFD700 1px 5px;
+    
 }
 .school-section{
     display: flex;
@@ -262,9 +297,12 @@ line-height: 5px;
     line-height: 20px;
 }
 .first-semester h6{
-    font-size: 20px;
+    font-size: 22px;
     line-height: 25px;
     font-weight: bold;
+}
+.first-semester h6:hover{
+    color:  rgb(60, 179, 113);
 }
 .annual-leave{
     display: flex;
@@ -272,7 +310,7 @@ line-height: 5px;
 .annual{
     
     /* width: 40%; */
-    /* margin: 150 -5px; */
+    margin: 150 -5px;
     /* padding: 50px; */
     /* margin-top: 150px; */
 }
@@ -280,12 +318,18 @@ line-height: 5px;
     font-size: 17px;
     line-height: 5px;
 }
+.roster h5:hover{
+    color: rgb(60, 179, 113);
+}
 .important-info{
     display: flex;
     margin: 40 0px;
 }
 .deadline-fee h5{
     font-size: 18px;  
+}
+.deadline-fee h5:hover{
+    color:  rgb(60, 179, 113);
 }
 .deadline-fee p{
     line-height: 5px;
@@ -297,6 +341,9 @@ line-height: 5px;
 }
 .chancellor h5{
     font-size: 17px;
+}
+.chancellor h5:hover{
+    color:  rgb(60, 179, 113);
 }
 .chancellor p{
     font-size: 16px;
@@ -344,11 +391,12 @@ line-height: 5px;
 #you-tube{
     /* border: 1px solid red; */
     background-color: rgb(11, 11, 10, 0.8);
-    width: 700px;
+    width: 600px;
     height: 80px;
     position: absolute;
     bottom: 160px;
     padding: 20px;
+    left: 320px;
 }
 #you-tube{
     display: none;
@@ -520,12 +568,18 @@ line-height: 5px;
     }
     .navbar-section-two{
         width: 100% !important;
-         border: 1px solid red;   
+         /* border: 1px solid red;  */
+         
+    }
+    .solarin-logo{
+        /* border: 1px solid red; */
+        margin-left: 270px;
+        /* width: 50%; */
+        
     }
      .tai-solarin{
         /* border: 1px solid red; */
         line-height: 10px;
-
     }
     .ul-nav-two a{
         display: none;
@@ -535,10 +589,11 @@ line-height: 5px;
         text-align: center;
     }
    .tai-solarin h3{
-    font-size: 15px; 
+    width: 150px;
+    font-size: 19px; 
    }
    .tai-solarin p{
-    font-size: 7px;
+    font-size: 9px;
    }
    
     .imgg{
@@ -602,12 +657,12 @@ line-height: 5px;
     }
     .backgroung-img{
         /* border: 1px solid red; */
-        height: 750px!important;
+        height: 870px!important;
     }
     .paragrah{
         /* border: 1px solid red; */
         width: 100% !important;
-        height: 550px !important;
+        height: 640px !important;
     }
     .parag{
         font-size: 17px;
@@ -634,10 +689,12 @@ line-height: 5px;
     }
     .annual-leave{
         flex-direction: column;
+        /* margin-bottom: -10px; */
     }
     .annual{
         /* border: 1px solid red; */
         padding: 20px;
+        margin-top: -30px;
     }
     .quick-links{
         /* border: 1px solid red; */
@@ -709,6 +766,467 @@ line-height: 5px;
     } 
 
     
+}
+
+
+
+
+
+
+@media screen and (min-width:505px) and (max-width:900px){
+
+     
+    .parent{
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .navbar-section-one{
+        display: none;
+        /* border: 1px solid red; */
+    }
+    .navbar-section-two{
+        width: 100% !important;
+         /* border: 1px solid red; */
+    }
+    .solarin-logo{
+        /* border: 1px solid red; */
+        width: 180px;
+
+    }
+     .tai-solarin{
+        /* width: 200px; */
+        /* border: 1px solid red; */
+        line-height: 10px;
+
+    }
+    .ul-nav-two{
+        width: 80%;
+        gap: 20px;
+    }
+    .ul-nav-two a{
+        /* border: 1px solid red; */
+        font-size: 13px;
+    }
+    #nav-two-icon{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+   .tai-solarin h3{
+    font-size: 11px; 
+    width: 70px;
+   }
+   .tai-solarin p{
+    font-size: 5px;
+   }
+   
+    .imgg{
+        width: 60px !important;
+
+    }
+    .carousel-inner{
+        justify-content: center;
+    }
+    .school-section{
+        /* flex-direction: column; */
+        font-size: 18px;
+    }
+    .flag-icon{
+        /* border: 1px solid red; */
+        font-size: 10px;
+        width: 30px;
+    }
+    .school-building{
+        /* flex-direction: column; */
+    }
+    .first-img-section{
+        /* border: 2px solid red; */
+        /* flex-direction: column; */
+    }
+
+    #active-img{
+        /* border: 1px solid red; */
+        width: 100% !important;
+        height: 100%;
+    }
+    .apply-for-admission{
+        width: 100% !important;
+        height: 430px;
+    }
+    .apply-for-admission h2{
+        font-size: 20px;
+    }
+    .apply-p{
+        font-size: 13.5px;
+    }
+    .apply-ptag{
+        font-size: 14px;
+    }
+    .tai{
+        /* border: 1px solid red; */
+        align-items: center;
+        /* justify-content: space-between; */
+        /* gap: 20px !important; */
+    }
+    .about-our-uni{
+        flex-direction: column;
+    }
+    .tai-uni h4{
+        font-size: 25px;
+    }
+    .tai-uni p{
+        font-size: 12px;
+    }
+    .hh4{
+        /* border: 1px solid red; */
+        font-size: 18px !important;
+    }
+    .backgroung-img{
+        /* border: 1px solid red; */
+        height: 650px!important;
+    }
+    .paragrah{
+        /* border: 1px solid red; */
+        width: 100% !important;
+        height: 410px !important;
+    }
+    .parag{
+        font-size: 20px;
+    }
+    .paragg{
+        font-size: 18px;
+    }
+    .vision-section{
+        flex-direction: column;
+    }
+    .news-updates{
+        flex-direction: column;
+    }
+    #test-img{
+        /* border: 1px solid red; */
+        width: 250px !important;
+    }
+    .first-semester p{
+        /* border: 1px solid red; */
+    }
+    .first-semester h6{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .annual-leave{
+        flex-direction: column;
+    }
+    .annual{
+        /* border: 1px solid red; */
+        padding: 20px;
+        margin-top: -30px;
+    }
+    .quick-links{
+        /* border: 1px solid red; */
+        width: 100%;
+        
+    }
+    .links{
+        font-size: 13px;
+
+    }
+    .quick-icon h5{
+        font-size: 18px;
+        
+    }
+    #icon-quick{
+        /* border: 1px solid red; */
+        font-size: 20px !important;
+    }
+    .important-info{
+        
+    }
+    #carousel-2-img{
+        width: 64% !important;
+        /* justify-self: center; */
+    }
+    .senate-building{
+        height: 500px;
+        /* margin-top: 20px; */
+    }
+    .video-tour{
+        top: 40px;
+        padding: 20px;
+    }
+    .video-tour h2{
+        font-size: 33px;
+        margin-top: 20px;
+    }
+    .video-tour p{
+        font-size: 16px;
+    }
+    .p-tagg{
+        width: 100% !important;
+        font-size: 15px;
+    }
+    .tasued-log{
+        /* border: 1px solid red; */
+        width: 200px;
+        align-items: center;
+    }
+    .tai-unii h5{
+        font-size: 18px !important;
+    }
+    .tai-unii p{
+        font-size: 10px;
+    }
+    .important-info,.acting-vc,.carousel-parent{
+        flex-direction: column;
+    }
+    .footer-container,.footer-parent{
+        flex-direction: column;
+    }
+    .footer-container{
+        width: 100% !important;
+        justify-content: center;
+    }
+    .footer-icon{
+        line-height: 15px;
+       
+    } 
+
+    
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width:910px) and (max-width:1130px){
+
+     .parent{
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .navbar-section-one{
+        display: none;
+        /* border: 1px solid red; */
+    }
+    .navbar-section-two{
+        width: 100% !important;
+         /* border: 1px solid red;    */
+    }
+     .tai-solarin{
+        /* border: 1px solid red; */
+        line-height: 10px;
+
+    }
+    .ul-nav-two a{
+        /* display: none; */
+        font-size: 15px;
+    }
+    #nav-two-icon{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+   .tai-solarin h3{
+    font-size: 15px; 
+   }
+   .tai-solarin p{
+    font-size: 7px;
+   }
+   
+    .imgg{
+        width: 60px !important;
+
+    }
+    .carousel-inner{
+        justify-content: center;
+    }
+    .school-section{
+        /* flex-direction: column; */
+        font-size: 18px;
+    }
+    .flag-icon{
+        /* border: 1px solid red; */
+        font-size: 10px;
+        width: 30px;
+    }
+    .school-building{
+        /* flex-direction: column; */
+    }
+    .first-img-section{
+        /* border: 2px solid red; */
+        /* flex-direction: column; */
+    }
+
+    #active-img{
+        /* border: 1px solid red; */
+        width: 100% !important;
+        height: 100%;
+    }
+    .apply-for-admission{
+        width: 100% !important;
+        height: 430px;
+    }
+    .apply-for-admission h2{
+        font-size: 20px;
+    }
+    .apply-p{
+        font-size: 13.5px;
+    }
+    .apply-ptag{
+        font-size: 14px;
+    }
+    .tai{
+        /* border: 1px solid red; */
+        width: 200px;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 9px !important;
+    }
+    .about-our-uni{
+        /* flex-direction: column; */
+        gap: 100px;
+    }
+    .tai-uni h4{
+        font-size: 18px;
+    }
+    .tai-uni p{
+        font-size: 8.5px;
+    }
+    .hh4{
+        /* border: 1px solid red; */
+        width: 300px;
+        font-size: 25px !important;
+    }
+    .backgroung-img{
+        /* border: 1px solid red; */
+        height: 520px!important;
+    }
+    .paragrah{
+        /* border: 1px solid red; */
+        width: 100% !important;
+        height: 410px !important;
+    }
+    .parag{
+        font-size: 18px;
+        
+    }
+    .paragg{
+        font-size: 16px;
+    
+    }
+    .vision-section{
+        /* flex-direction: column; */
+    }
+    .news-updates{
+        /* flex-direction: column; */
+    }
+    .read-all-news{
+
+    }
+    #test-img{
+        /* border: 1px solid red; */
+        width: 250px !important;
+    }
+    .first-semester p{
+        /* border: 1px solid red; */
+    }
+    .first-semester h6{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .annual-leave{
+        /* flex-direction: column; */
+        width: 50%;
+        margin-top: 130px;
+    }
+    .annual{
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .roster h5{
+        font-size: 12px;
+    }
+    .deadline-fee{
+        width: 200px;
+
+    }
+    .quick-links{
+        /* border: 1px solid red; */
+        width: 100%;
+        
+    }
+    .links{
+        font-size: 13px;
+
+    }
+    .quick-icon h5{
+        font-size: 18px;
+        
+    }
+    #icon-quick{
+        /* border: 1px solid red; */
+        font-size: 20px !important;
+    }
+    .important-info{
+        
+    }
+    #carousel-2-img{
+        width: 64% !important;
+        /* justify-self: center; */
+    }
+    .senate-building{
+        height: 500px;
+        /* margin-top: 20px; */
+    }
+    .video-tour{
+        top: 40px;
+        padding: 20px;
+    }
+    .video-tour h2{
+        font-size: 33px;
+        margin-top: 20px;
+    }
+    .video-tour p{
+        font-size: 16px;
+    }
+    .p-tagg{
+        width: 100% !important;
+        font-size: 15px;
+    }
+    .tasued-log{
+        /* border: 1px solid red; */
+        width: 200px;
+        align-items: center;
+    }
+    .tai-unii h5{
+        font-size: 18px !important;
+    }
+    .tai-unii p{
+        font-size: 10px;
+    }
+    .important-info,.acting-vc,.carousel-parent{
+        /* flex-direction: column; */
+    }
+    .footer-container,.footer-parent{
+        /* flex-direction: column; */
+    }
+    .footer-container{
+        width: 100% !important;
+        justify-content: center;
+        gap: 10px;
+        /* padding: 20px; */
+        margin: 25px;
+    }
+    .footer-icon{
+        line-height: 15px;
+       
+    } 
+
+    
+    
+
 }
 
 
